@@ -1,0 +1,15 @@
+@import url(./variables.scss);
+@import url(./keyframes.scss);
+@import url(./reusables.scss);
+@import url(./header.scss);
+@import url(./main-about.scss);
+@import url(./main-intro.scss);
+@import url(./main-stories.scss);
+@import url(./footer.scss);
+*{
+    box-sizing: border-box;
+    text-align: center;
+    color: $background-color;
+    /* border-style: solid; */
+    border-color: darkmagenta;
+}

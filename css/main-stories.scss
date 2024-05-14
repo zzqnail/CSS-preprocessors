@@ -1,0 +1,24 @@
+.stories{
+    background-repeat: no-repeat;
+    background-image: url(../assets/Learn_more_Background.png);
+    background-size: cover;
+    align-content: center;
+}   
+.stories .content{
+    background-color: rgba(140, 79, 42, 0.3);
+    height: 80vh;
+}
+.stories .button{
+    text-align: center;
+    padding: 10px 26px 16px 36px;
+    border-radius: 56px;
+    font-size: 52px;
+}
+.stories h2{
+    display: block;
+    /* border-color: $button-color;
+    border-style: solid; */
+    padding: 0px 37%;
+    font-weight: $subhead-font-weight;
+
+}

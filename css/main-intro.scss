@@ -1,0 +1,48 @@
+/* intro */
+
+.intro{
+    background-image: url(../assets/Desktop_Backgrounds_1920x1200_6\ 3.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stars{
+    /* border-style: solid;
+    border-color: purple; */
+    position: absolute;
+    right: 33.73px;
+    top: 13.13px;
+    z-index: 5;
+    transform-origin: right center;
+    animation: expand 2s cubic-bezier(.74,.28,.31,.75) alternate infinite;
+    opacity:80%;
+    height: 83vh;
+    width: 61%;
+}
+
+.rays{
+    /* border-style: solid;
+    border-color: purple; */
+    position: absolute;
+    right: -7.72px;
+    top: 68.03px;
+    height: 84vh;
+    width: 39%;
+    z-index: $top-z-index;
+    animation: appear 2s linear alternate-reverse infinite
+}
+
+.intro .content{
+    height: $page-height;
+}
+
+.intro .subheadline{
+    opacity: $dark-text-opacity;
+    color: $background-background-color;
+}
+
+.intro-logo{
+    width: 63px;
+    height: 63px;
+}

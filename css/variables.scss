@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Oswald;
+    src: url(../assets/Oswald-VariableFont_wght.ttf) format(truetype);
+}
+@font-face {
+    font-family: Sans;
+    src: url(../assets/Source$text-font3-VariableFont_wght.ttf) format(truetype);
+}
+
+$header-font: Oswald;
+$text-font: Sans;
+
+$white: #EEEEEE;
+$gray: #454647;
+$off-gray: #666666;
+$off-white: #FFFFFF;
+$light-blue: #55C2D8;
+
+$background-color: $white;
+$header-on-dark-color: $off-white;
+$subhead-on-white: $off-gray;
+$text-on-white-color: $gray;
+$button-color: $light-blue;
+$footer-background-color: $gray;
+
+
+$header-font-size: 48px;
+$header-font-weight: 700;
+$subhead-font-size: 24px;
+$subhead-font-weight: 350;
+$dark-text-opacity: 70%;
+
+$page-height: 100vh;
+
+$top-z-index: 5;

@@ -1,0 +1,29 @@
+/* about */
+    .about .content{
+        align-content: start;
+        padding-top: 30px;
+    }
+
+    .about .paragraph{
+        margin: 15px;
+        width: $dark-text-opacity;
+        /* border-color: yellow; */
+        /* border-style: solid; */
+        display: inline-grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 100px;
+    }
+
+    .about p {
+        color: $subhead-on-white;
+        text-align: justify;        
+        /* border-color: red; */
+        /* border-style: solid; */
+        font-weight: 400;
+        font-size: 16;
+    }
+
+    .about .subheadline{
+        color: $subhead-on-white;
+        font-weight: 400;
+    }
