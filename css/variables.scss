@@ -1,14 +1,8 @@
-@font-face {
-    font-family: Oswald;
-    src: url(../assets/Oswald-VariableFont_wght.ttf) format(truetype);
-}
-@font-face {
-    font-family: Sans;
-    src: url(../assets/Source$text-font3-VariableFont_wght.ttf) format(truetype);
-}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
-$header-font: Oswald;
-$text-font: Sans;
+
+$header-font: 'Oswald';
+$text-font: 'Source Sans 3';
 
 $white: #EEEEEE;
 $gray: #454647;
